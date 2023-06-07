@@ -10219,7 +10219,7 @@ div#author-info__sayhi {
 
 @media screen and (max-width: 768px) {
     #aside-content .card-widget {
-        border-radius: 12px;
+        border-radius: 8px;
     }
 }
 
