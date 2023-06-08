@@ -10377,16 +10377,16 @@ a.extend.prev {
 
 @media screen and (max-width: 768px) {
     #page-header.post-bg {
-        height: 15rem !important;
+        height: 30rem !important;
         margin-bottom: -12px;
     }
 
     #page-header.post-bg:before {
-        height: 7.5rem;
+        height: 15rem;
     }
 
     .post-bg #post-cover {
-        min-height: 7.5rem !important;
+        min-height: 15rem !important;
         height: 70% !important;
         opacity: 1 !important;
     }
