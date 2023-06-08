@@ -37,9 +37,9 @@
 }
 
 [data-theme=light] {
-    --heo-theme: #425AEF;
+    --heo-theme: #9da9f3;
     --heo-theme-op: #4259ef23;
-    --heo-theme-op-deep: #4259efdd;
+    --heo-theme-op-deep: #afb9fcdd;
     --heo-theme-none: #4259ef01;
     --heo-blue: #425AEF;
     --heo-red: #D8213C;
@@ -15140,8 +15140,8 @@ span.hexo-douban-pagenum {
 #footer-banner .footer-banner-link {
     margin-right: 1rem;
     color: var(--heo-fontcolor);
-    font-size: 0.8rem;
-    font-weight: bold;
+    font-size: small;
+    font-weight: normal;
     white-space: nowrap;
 }
 
