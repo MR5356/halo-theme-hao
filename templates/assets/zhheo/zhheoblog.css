@@ -10386,7 +10386,7 @@ a.extend.prev {
     }
 
     .post-bg #post-cover {
-        min-height: 15rem !important;
+        min-height: 7.5rem !important;
         height: 70% !important;
         opacity: 1 !important;
     }
