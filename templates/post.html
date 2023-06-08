@@ -177,7 +177,7 @@
                         <span class="post-copyright-info" th:utext="${theme.config.post.copyrightInfo}"></span>
                     </div>
                 </div>
-                <nav class="pagination-post" id="pagination"
+                <!-- <nav class="pagination-post" id="pagination"
                      th:with="postCursor = ${postFinder.cursor(post.metadata.name)}">
                     <a th:if="${postCursor.hasPrevious()}" th:href="@{${postCursor.previous.status.permalink}}">
                         <div class="prev-post pull-left">
@@ -195,7 +195,7 @@
                             </div>
                         </div>
                     </a>
-                </nav>
+                </nav> -->
                 <div class="relatedPosts" th:if="${not #lists.isEmpty(post.categories)}">
 
                     <div class="headline">
