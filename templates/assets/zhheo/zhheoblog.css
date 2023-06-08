@@ -37,9 +37,9 @@
 }
 
 [data-theme=light] {
-    --heo-theme: #9da9f3;
+    --heo-theme: #7f8ef3;
     --heo-theme-op: #4259ef23;
-    --heo-theme-op-deep: #afb9fcdd;
+    --heo-theme-op-deep: #8494fadd;
     --heo-theme-none: #4259ef01;
     --heo-blue: #425AEF;
     --heo-red: #D8213C;
@@ -2727,12 +2727,12 @@ blockquote footer cite::before {
 }
 
 #page-header.post-bg {
-    height: 20rem;
+    height: 10rem;
 }
 
 @media screen and (max-width: 768px) {
     #page-header.post-bg {
-        height: 18rem;
+        height: 9rem;
     }
 }
 
@@ -10377,12 +10377,12 @@ a.extend.prev {
 
 @media screen and (max-width: 768px) {
     #page-header.post-bg {
-        height: 30rem !important;
+        height: 15rem !important;
         margin-bottom: -12px;
     }
 
     #page-header.post-bg:before {
-        height: 15rem;
+        height: 7.5rem;
     }
 
     .post-bg #post-cover {
@@ -10394,15 +10394,15 @@ a.extend.prev {
 
 @media screen and (min-width: 1300px) {
     #page-header.post-bg {
-        height: 25rem;
+        height: 13rem;
     }
 
     #page-header {
-        height: 25rem;
+        height: 13rem;
     }
 
     #page-header.post-bg:before {
-        height: 25rem;
+        height: 13rem;
     }
 
     #post-info .post-title {

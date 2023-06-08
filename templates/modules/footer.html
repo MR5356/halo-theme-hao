@@ -38,7 +38,7 @@
             <div class="footer-banner-left">
                 <div id="footer-banner-tips">
                     <div class="copyright" th:if="${not #strings.isEmpty(theme.config.basics.siteStartTime)}">
-                        ©[[${#strings.arraySplit(theme.config.basics.siteStartTime, '-')[0]}]] - [[${#dates.format(new java.util.Date(), 'yyyy')}]] [[${site.title}]].
+                        ©[[${#strings.arraySplit(theme.config.basics.siteStartTime, '-')[0]}]] - [[${#dates.format(new java.util.Date(), 'yyyy')}]] [[${site.title}]]
                     </div>
                     <div class="copyright" th:if="${#strings.isEmpty(theme.config.basics.siteStartTime)}">
                         ©[[${#dates.format(new java.util.Date(), 'yyyy')}]] [[${site.title}]]
